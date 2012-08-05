@@ -32,7 +32,7 @@ let g:Powerline#Colorschemes#dangerous#colorscheme = Pl#Colorscheme#Init([
 		\ 's': ['base3', 'base0', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize', 'fileinfo', 'filename', 'fileinfo.filepath', 'static_str','currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup', 'lineinfo', 'lineinfo.line.tot', 'fileinfo.flags'], {
+	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize', 'fileinfo', 'filename', 'fileinfo.filepath', 'static_str','currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup', 'lineinfo', 'lineinfo.line.tot', 'fileinfo.flags', 'tagbar:currenttag'], {
 		\ 'n': ['base03', 'base1'],
 		\ 'N': ['base03', 'base1'],
 		\ 'i': ['base03', 'base1'],
@@ -63,18 +63,18 @@ let g:Powerline#Colorschemes#dangerous#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['base3', 'yellow', ['bold']],
-		\ 'N': ['yellow', 'green', ['bold']],
+		\ 'n': ['base03', 'base1', ['bold']],
+		\ 'N': ['base03', 'base1', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
-		\ 'n': ['yellow', 'orange'],
-		\ 'N': ['yellow', 'green'],
+		\ 'n': ['base03', 'base1'],
+		\ 'N': ['base03', 'base1'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['base3', 'orange'],
-		\ 'N': ['base3', 'green'],
+		\ 'n': ['base03', 'base1'],
+		\ 'N': ['base03', 'base1'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
